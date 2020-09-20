@@ -380,6 +380,10 @@ if(isset($_GET["searchQuery"])) {
 }
 ?>
 <script>
+    Array.from(document.querySelectorAll('.entry')).forEach((el)=> {
+        el.style.display='none';
+    });
+    document.querySelector('#reqVal').placeholder='Enter domain to be crawled..(like https://www.cricbuzz.com)';
     document.querySelector("form").addEventListener("submit", function () {
         this.submit();
         document.body.innerHTML+="<div class='spiderCrawl'><img src='assets/images/spider.gif' title='spiderGif'></div>";
