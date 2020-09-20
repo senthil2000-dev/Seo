@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242424;
+  }
+
+li {
+    float: left;
+}
+ul .menu {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2vh 2vw;
+    text-decoration: none;
+}
+  
+.menu:hover:not(.active) {
+    background-color: red;
+}
+  
+ul .active {
+    background-color: greenyellow;
+    color: black;
+    font-weight: 600;
+}

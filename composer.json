@@ -1,0 +1,8 @@
+{
+    "name": "search/phpproject",
+    "description": "searchengine",
+    "type": "project",
+    "require": {
+        "php-ai/php-ml": "^0.9.0"
+    }
+}

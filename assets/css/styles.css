@@ -1,0 +1,78 @@
+body {
+    background: #202a3f;
+    color: white;
+}
+.container {
+    margin-top: 2vh;
+}
+.glyphicon-search {
+    font-size: 20px;
+}
+.btn-default {
+    background: orange;
+    width: 100px;
+    padding: 12.5px;
+}
+.form-control {
+    padding: 25px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .btn-default {
+      width: auto;
+    }
+  }
+
+.novalue {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.allSols {
+    margin: 10px 30px;
+}
+
+.searchSol {
+    margin-bottom: 20px;
+}
+.searchSol a {
+    color: beige;
+    text-decoration: none;
+    cursor: pointer;
+}
+.searchSol h4:hover {
+    text-decoration: underline;
+}
+.searchSol h4 {
+    margin: 4px 0;
+    color: springgreen;
+    font-weight: 600;
+}
+
+.spiderCrawl {
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+}
+.spiderCrawl img {
+    width: 33vw;
+    height: 66vh;
+}
+.short {
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+.entry {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 1vh 1vw;
+}
+
+::placeholder {
+    color: springgreen;
+}

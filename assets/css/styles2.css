@@ -1,0 +1,99 @@
+body {
+    background: #202a3f;
+    color: white;
+}
+.container {
+    margin-top: 2vh;
+}
+.glyphicon-search {
+    font-size: 20px;
+}
+.btn-default {
+    background: orange;
+    width: 100px;
+    padding: 12.5px;
+}
+.form-control {
+    padding: 25px;
+    font-size: 20px;
+}
+  .allSols {
+    margin: 10px 30px;
+}
+
+.searchSol {
+    margin-bottom: 20px;
+    display: flex;
+}
+.searchSol img {
+    width: 266px;
+    height: 138px;
+    margin-right: 16px;
+}
+.searchSol a {
+    color: beige;
+    text-decoration: none;
+    cursor: pointer;
+}
+.searchSol h4:hover {
+    text-decoration: underline;
+}
+.searchSol h4 {
+    margin: 4px 0;
+    color: springgreen;
+    font-weight: 600;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination div {
+    margin: 2px;
+}
+.pagination a{
+    color: cyan;
+    cursor: pointer;
+}
+.sortBy {
+    padding: 5px;
+    color: cyan;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.sortBy option {
+    background-color: black;
+    color: white;
+}
+.selectStat {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+@media only screen and (max-width: 600px) {
+    .btn-default {
+      width: auto;
+    }
+    .searchSol {
+        flex-direction: column;
+    }
+    .searchSol img {
+        width: 175px;
+    }
+}
+.desp {
+    display: flex;
+    flex-direction: column;
+}
+.searchSol .desp a {
+    color: tomato;
+    font-size: medium;
+}
+.searchSol .desp a:last-child {
+    color: turquoise;
+}
+.searchSol span {
+    font-size: medium;
+}
