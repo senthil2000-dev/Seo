@@ -4,7 +4,7 @@
 ### Goal: The website contains a site, image, and news search currently. Add features for video search with the poster images as thumbnails and also implement a complete location search with the google maps API. Also, allow users to play the video on a customized video player of the website itself and download it.
 * Fork and clone this repository to your local machine.
 * Use composer to install the dependancies.
-* To get started: In the addDomain.php, add a function to crawl through videos and create a separate php file for implementation of location search and work on it.Also find innovative ways of storing and downloading the videos.
+* To get started: In the addDomain.php, add a function to crawl through videos and create a separate php file for implementation of location search and work on it. Also find innovative ways of storing and downloading the videos.
 ## Project 2:
 ### Requirements: PHP, MySql, Javascript
 ### Goal: Implementation of sort feature and improvised ranking system in addition to fetching updated content
