@@ -1,4 +1,7 @@
 # Search Engine Optimisation
+
+https://user-images.githubusercontent.com/60320288/143543960-89d88494-ab38-43b9-ab7f-340614399410.mp4
+
 ## Project 1:
 ### Requirements: PHP, MySql, Javascript
 ### Goal: The website contains a site, image, and news search currently. Add features for video search with the poster images as thumbnails and also implement a complete location search with the google maps API. Also, allow users to play the video on a customized video player of the website itself and download it.
